@@ -7,4 +7,9 @@ function desplegarboton4() {
 
 };
 
-boton4.addEventListener("click", desplegarboton4,true);
+function ocultarboton4() {
+  botonlis4.classList.remove('mostrar');
+
+};
+
+boton4.addEventListener("mouseover", desplegarboton4,true);
